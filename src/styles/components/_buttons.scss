@@ -1,0 +1,15 @@
+@use '../variables';
+
+.button {
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 9px;
+
+    &--primary {
+        background-color: variables.$orange;
+    }
+}

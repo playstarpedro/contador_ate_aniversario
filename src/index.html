@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Aniversário</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container"s>
+            <img class="hero__logo" src="images/icon.png" alt="Bolo de aniversário">
+            <p class="hero__text" id="distancia-evento">
+                Faltam <span id="contador"></span> para minha festa de aniversário!
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        São Paulo
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço da entrada</b>
+                        Gratuita!
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        São Paulo
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Garanta seu convite!
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="event">
+        <div class="event__block" data-aos="zoom-in-right">
+            <div class="container event--festa">
+                <div class="event__details">
+                    <h2 class="event__details__title">A festa</h2>
+                    <p class="event__details__description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem odit consectetur facere aliquid sequi, cupiditate repellat et a? Accusantium numquam molestiae, minus veritatis reiciendis corporis culpa cum quae ipsum mollitia.
+                    </p>
+                </div>
+                <img class="event__image" src="images/image.jpg" alt="Banquete de festa de aniversário">
+            </div>
+        </div>
+        <div class="event__block event--image-left" data-aos="zoom-in-left">
+            <div class="container event--local">
+                <div class="event__details">
+                    <h2 class="event__details__title">O local</h2>
+                    <p class="event__details__description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem odit consectetur facere aliquid sequi, cupiditate repellat et a? Accusantium numquam molestiae, minus veritatis reiciendis corporis culpa cum quae ipsum mollitia.
+                    </p>
+                </div>
+                <img class="event__image" src="images/image2.jpg" alt="Banquete de festa de aniversário">
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
