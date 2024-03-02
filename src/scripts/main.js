@@ -1,6 +1,6 @@
 AOS.init();
 
-const dataDoAniversario = new Date("Mar 7, 2023 00:00:00");
+const dataDoAniversario = new Date("Mar 7, 2024 00:00:00");
 const timeStampDoAniversario = dataDoAniversario.getTime();
 
 //set interval chama a mesma função repetidamente com um intervalo definido
